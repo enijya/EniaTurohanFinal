@@ -1,0 +1,527 @@
+
+h1, h2, h3, footer
+{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ff779e;}
+button 
+{ color: rgb(255, 177, 237);}
+
+body a 
+{
+    color: #ff779e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body 
+{
+    background-color: #ffdae1;
+}
+
+p 
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+
+    background-color: #ffeaf0;
+}
+
+nav a 
+{
+    color: #ef3167;
+}
+
+
+.witruimte 
+{
+    height: 20px;
+}
+
+
+h2,h3,h4
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F2529D;
+}
+
+.banner 
+{
+    background-color: #F2529D;
+    display: flex;
+    justify-content: center;
+}
+
+.spacer 
+{
+    width: 100px;
+}
+
+.afl 
+{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 40em;
+    justify-content: space-between;
+    padding: 1em;
+    gap: 1em;
+    border-radius: 20px;
+}
+
+.rechterkant 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.opties 
+{
+    display: flex;
+    background-color: #ffbdd5;
+    justify-content: space-between;
+}
+
+.meerlezen 
+{
+    color: #ff7bac;
+    justify-self: end;
+
+}
+
+.titelpagina 
+{
+    display: flex;
+    width: 90em;
+    height: 10em;
+    align-items: center;
+    background-color: #ffdae1; 
+    justify-content: center;
+}
+
+h1 
+{
+    display: flex;
+    border: white; 
+    border-style: solid;
+    border-width: thick;
+    width: 20em;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+    color: #F2529D;
+    font-size: 3em;
+}
+
+.afleveringen 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.wekafl
+{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 40em;;
+    height: 16em;
+    justify-content: space-between;
+    padding: 1em;
+    gap: 1em;
+    border-radius: 20px;
+}
+
+.poll 
+{
+    display: flex;
+    background-color: white;
+    height: 16em;
+    width: min-content;
+    border-radius: 20px;
+    padding: 1em;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.onderkant 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20em;
+    gap: 0.5em;
+}
+
+.checkbox2 
+{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.home 
+{
+    display: flex;
+    width: 90.875em;
+    height: 17em;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+label 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.verzendknop 
+{
+    display: flex;
+    height: 1em;
+    justify-content: center;
+}
+
+.verhaal 
+{
+    display: flex;
+    background-color: white;
+    height: 16em;
+    width: 20em;
+    gap: 1em;
+    border-radius: 20px;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner img 
+{
+    width: 1200px;
+}
+
+.linkjes img
+{
+    width: 70px;
+}
+
+.onderkant3 
+{
+    display: flex;
+    background-color: white;
+    height: 6em;
+    width: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #F2529D;
+    padding: 1em;
+    align-items: flex-start;
+}
+
+.onderkant2 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    height: auto;
+}
+
+.verzendknop2 
+{
+    display: flex;
+    height: 1em;
+    justify-content: center;
+}
+
+.Typ 
+{
+    color: #feacc4;
+    font-size: small;
+}
+
+h3 
+{
+    font-size: medium;
+}
+
+.aflknop 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.wij 
+{
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+    gap: 1em;
+    height: fit-content;
+}
+
+.tekstJEG 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.JEG 
+{
+    display: flex;
+    background-color: white;
+    padding: 2em;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    padding-bottom: 0;
+    padding-top: 1em;
+}
+
+.JEG img
+{
+    width: 370px;
+    height: 500px;
+}
+
+.ovfotos 
+{
+    border-radius: 20px;
+}
+
+
+.overons 
+{
+    display: flex;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    padding: 2em;
+    width: 80em;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.ovonsplek 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.naam 
+{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    padding: 0;
+    margin: 0;
+}
+
+input 
+{
+    color: #ef3167;
+}
+
+
+
+.shop
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shoptitel 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.kpt 
+{
+    width: 15em;
+}
+
+.shopfotos 
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    align-items: center;
+}
+
+.kpt2 
+{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    width: 25em;
+}
+
+.shoptekst 
+{
+    font-size: small;
+}
+
+footer img 
+{
+    width: 2em;
+    height: 2em;
+}
+
+footer 
+{
+    background-color: #ffeaf0;
+    height: fit-content;
+    padding-bottom: 1em;
+}
+
+.footer2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact 
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 1em;
+    width: 20em;
+    align-items: center;
+}
+
+.contacttekst
+{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.epa 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.extra 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 20em;
+    align-items: center;
+    
+}
+
+.extratekst
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+a 
+{
+   text-decoration: none;
+}
+
+a:link 
+{
+    color: #ff779e;
+}
+
+a:visited 
+{
+    color: #ff7bac;
+}
+
+a:hover 
+{
+    color: #F2529D;
+}
+
+.socials 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20em;
+    flex-wrap: wrap;
+}
+
+.socialsfotos 
+{
+    display: flex;
+    gap: 2em;
+}
+
+.icons 
+{
+    height: 5em;
+    width: 5em;
+}
+
+footer a 
+{
+    font-size: x-small;
+}
+
+footer p
+{
+    color: #ff779e;
+    font-size: small;
+}
+
+.linkerkant img 
+{
+width: 200px;
+}
+
+.opties 
+{
+    width: 200px;
+}
+
+.opties img 
+{
+    width: 40px;
+}
+
+.middenstuk 
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+    justify-content: center;
+    text-align: center;
+}
+
+ul 
+{
+    list-style: none;
+}
